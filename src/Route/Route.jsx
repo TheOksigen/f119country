@@ -8,7 +8,7 @@ export const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route path="/" element={<Analayout />}>
 			<Route index element={<Home />} />
-			<Route path="country/:zirt" element={<Contry />} />
+			<Route path="david/:zirt" element={<Contry />} />
 		</Route>
 
 	)
